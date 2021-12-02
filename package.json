@@ -1,0 +1,17 @@
+{
+  "name": "advent_code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "cd day_$DAY && node index.js",
+    "watch": "watch 'npm run start' ./day_$DAY"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}
