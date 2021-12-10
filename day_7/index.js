@@ -43,7 +43,6 @@ function part2() {
   }
 
   return minValue
-
 }
 
 // 18506 X (too low)
